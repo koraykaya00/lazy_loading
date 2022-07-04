@@ -1,0 +1,27 @@
+<div class="container mt-2">
+    <div class="row text-center">
+        <div class="col">
+            <div class="card" [routerLink]="['/post']">
+                <div class="card-body">
+                    <p class="card-text">Posts</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card" [routerLink]="['/comment']">
+                <div class="card-body">
+                    <p class="card-text">Comments</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card">
+                <div class="card-body" [routerLink]="['/todo']">
+                    <p class="card-text">Todos</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<router-outlet></router-outlet>

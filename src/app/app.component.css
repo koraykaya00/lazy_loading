@@ -1,0 +1,10 @@
+.card:hover {
+    background-color: #2980b9;
+    color: #fff;
+    cursor: pointer;
+}
+
+card.active {
+    background-color: #2980b9;
+    color: #fff;
+}

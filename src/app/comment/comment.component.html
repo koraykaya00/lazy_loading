@@ -1,0 +1,14 @@
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h1 class="text-center mt-4 mb-4">Comments</h1>
+            <ul class="list-group">
+                <li class="list-group-item mt-2" *ngFor="let comment of comments">
+                    <p> <strong>Name: </strong>{{comment.name}} </p>
+                    <p> <strong>e-Mail: </strong>{{comment.email}} </p>
+                    <p> <strong>Body: </strong>{{comment.body}} </p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
